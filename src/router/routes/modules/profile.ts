@@ -18,7 +18,7 @@ const profile: AppRouteModule = {
       name: 'Setting',
       component: () => import('/@/views/profile/setting/index.vue'),
       meta: {
-        affix: true,
+        affix: false,
         title: t('routes.dashboard.setting'),
       },
     },
@@ -27,6 +27,7 @@ const profile: AppRouteModule = {
       name: 'Userinfo',
       component: () => import('/@/views/profile/userInfo/index.vue'),
       meta: {
+        affix: false,
         title: t('routes.dashboard.userinfo'),
       },
     },
